@@ -8,13 +8,12 @@ repositories {
 }
 
 dependencies {
-    classpath 'org.gradle.api.plugins.quality.PmdExtension'
 }
 
 pmd {
     consoleOutput = true
     toolVersion = "6.39.0"
     rulesMinimumPriority = 5
-    classpath = "/src/main/java/Player.java"
+    classpath = "\src\main\java\Player.java"
     ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml", "category/java/codestyle.xml"]
 }
