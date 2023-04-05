@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    classpath org.gradle.api.plugins.quality.PmdExtension
+    classpath 'org.gradle.api.plugins.quality.PmdExtension'
 }
 
 pmd {
